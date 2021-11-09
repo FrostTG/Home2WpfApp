@@ -1,0 +1,48 @@
+﻿<Window x:Class="Home2WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Home2WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF729794" Offset="0"/>
+            <GradientStop Color="#FF92D9E0" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="234,56 1" Margin="5" Background="#FFEBF0EE" FontSize="35" FlowDirection="RightToLeft"/>
+        <UniformGrid Grid.Row="1" Columns="4" Rows="6">
+            <Button Content="%" Background="LightGray" FontSize="14" FontWeight="Bold"/>
+            <Button Content="CE" Background="LightGray" FontSize="14" FontWeight="Bold"/>
+            <Button Content="C" Background="LightGray" FontSize="14" FontWeight="Bold"/>
+            <Button Content="⇐" Background="LightGray" FontSize="14" FontWeight="Bold"/>
+            <Button Content="1/x" Background="LightGray" FontSize="14" FontWeight="Bold"/>
+            <Button Content="x²" Background="LightGray" FontSize="14" FontWeight="Bold"/>
+            <Button Content="√" Background="LightGray" FontSize="14" FontWeight="Bold"/>
+            <Button Content="÷" Background="LightGray" FontSize="14" FontWeight="Bold"/>
+            <Button Content="7" FontSize="14" FontWeight="Bold"/>
+            <Button Content="8" FontSize="14" FontWeight="Bold"/>
+            <Button Content="9" FontSize="14" FontWeight="Bold"/>
+            <Button Content="x" Background="LightGray" FontSize="14" FontWeight="Bold"/>
+            <Button Content="4" FontSize="14" FontWeight="Bold"/>
+            <Button Content="5" FontSize="14" FontWeight="Bold"/>
+            <Button Content="6" FontSize="14" FontWeight="Bold"/>
+            <Button Content="-" Background="LightGray" FontSize="14" FontWeight="Bold"/>
+            <Button Content="1" FontSize="14" FontWeight="Bold"/>
+            <Button Content="2" FontSize="14" FontWeight="Bold"/>
+            <Button Content="3" FontSize="14" FontWeight="Bold"/>
+            <Button Content="+" Background="LightGray" FontSize="14" FontWeight="Bold"/>
+            <Button Content="+/-" FontSize="14" FontWeight="Bold"/>
+            <Button Content="0" FontSize="14" FontWeight="Bold"/>
+            <Button Content="," FontSize="14" FontWeight="Bold"/>
+            <Button Content="=" Background="LightGray" FontSize="14" FontWeight="Bold"/>
+        </UniformGrid>
+    </Grid>
+</Window>
